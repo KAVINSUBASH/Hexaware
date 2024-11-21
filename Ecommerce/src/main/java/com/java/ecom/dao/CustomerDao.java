@@ -10,4 +10,5 @@ public interface CustomerDao {
 	Customer searchByCustomerId(int customerId) throws ClassNotFoundException, SQLException ;
 	Customer searchByCustomerUsername(String email) throws ClassNotFoundException,SQLException;
 	int authenticate(String email, String password) throws ClassNotFoundException,SQLException;
+	int addCustomer(Customer customer) throws ClassNotFoundException, SQLException;
 }

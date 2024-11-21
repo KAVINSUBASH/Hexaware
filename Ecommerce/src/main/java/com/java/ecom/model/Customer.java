@@ -39,6 +39,20 @@ public class Customer {
         this.registrationDate = registrationDate;
     }
 
+    public Customer(String firstName, String lastName, String email, String password, String phone,Gender gender, String address, String city, String state, String postalCode, String country) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+		this.password= password;
+		this.phone = phone;
+		this.gender = gender;
+		this.address = address;
+		this.city= city;
+		this.state = state;
+		this.postalCode = postalCode;
+		this.country = country;
+    }
+    
     // Getters and Setters
     public int getCustomerId() {
         return customerId;
