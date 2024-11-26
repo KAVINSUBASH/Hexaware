@@ -9,6 +9,6 @@ public interface OrdersDao {
 	
 	List<Orders> showOrdersDao() throws SQLException, ClassNotFoundException;
 	List<Orders> showOrdersMoreThanDao() throws SQLException, ClassNotFoundException;
-	
+	boolean placeOrder(Orders order) throws ClassNotFoundException, SQLException;
 
 }
